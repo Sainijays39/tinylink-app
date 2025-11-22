@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import AddLinkForm from '/TinyLink/frontend/src/Components/AddLinkForm.jsx';
-import LinkTable from "/TinyLink/frontend/src/Components/LinkTable.jsx";
+import AddLinkForm from '../../Components/AddLinkForm.jsx';
+import LinkTable from "../../Components/LinkTable.jsx";
 
 function Home() {
     const [links, setLinks] = useState([]);
