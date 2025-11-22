@@ -1,7 +1,6 @@
 import { Routes, Route} from "react-router-dom";
 import Stats from './Pages/Stats/Stats.jsx';
 import Home from './Pages/Home/Home.jsx';
-import AllStats from './Pages/AllStats/AllStats.jsx'
 import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 import './App.css'
@@ -17,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/code/:code" element={<Stats />} />
-          <Route path="/all-stats" element={<AllStats />} />
+        
         </Routes>
       </main>
 
