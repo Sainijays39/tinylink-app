@@ -19,7 +19,6 @@ export default function Footer(code) {
           <h3 className="text-lg font-semibold text-white mb-2">Quick Links</h3>
           <ul className="space-y-1 text-gray-400">
             <li><a href="/" className="hover:text-white">Dashboard</a></li>
-            <li><a href="/all-stats" target="_blank" className="hover:text-white">Stats</a></li>
           </ul>
         </div>
 
