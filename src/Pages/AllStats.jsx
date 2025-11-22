@@ -11,7 +11,7 @@ function AllStats() {
 
   const fetchStats = async () => {
     setLoading(true);
-    const res = await axios.get(`${backendURL}/api/links/stats`);
+    const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/links/stats`);
     setData(res.data);
     setLoading(false);
   };
