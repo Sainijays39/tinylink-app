@@ -1,7 +1,7 @@
 import { Routes, Route} from "react-router-dom";
 import Stats from './Pages/Stats/Stats.jsx';
 import Home from './Pages/Home/Home.jsx';
-import AllStats from './Pages/AllStats.jsx'
+import AllStats from './Pages/AllStats/AllStats.jsx'
 import Navbar from './Components/Navbar.jsx';
 import Footer from './Components/Footer.jsx';
 import './App.css'
